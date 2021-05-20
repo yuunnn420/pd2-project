@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.MenuController">
+   <children>
+      <ImageView fx:id="menu" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/menu.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hotpot" fitHeight="38.0" fitWidth="40.0" layoutX="230.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/hotpot.png" />
+         </image>
+      </ImageView>
+      <VBox alignment="CENTER" layoutX="52.0" layoutY="230.0" prefHeight="164.0" prefWidth="513.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="TOP" prefHeight="32.0" prefWidth="276.0" text="NEW GAME" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <Label alignment="CENTER" contentDisplay="TOP" prefHeight="32.0" prefWidth="276.0" text="LOAD GAME" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <Label alignment="CENTER" contentDisplay="TOP" prefHeight="32.0" prefWidth="276.0" text="SETTINGS" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <Label alignment="CENTER" contentDisplay="TOP" prefHeight="32.0" prefWidth="276.0" text="EXIT GAME" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
